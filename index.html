@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet House</title>
+    <!-- tailwind cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- daisy ui cdn -->
+     
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            buttons: '#B68C5A',
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- font-awesome -->
+  <script src="https://kit.fontawesome.com/4633020943.js" crossorigin="anonymous"></script>
+
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
+
+  <style>
+    .font-adlam{
+        font-family: "ADLaM Display", serif;
+    }
+  </style>
+</head>
+<body class="font-adlam">
+    <header>
+        <nav class="bg-[#FFF9F4] mb-24">
+            <div class="navbar lg:container lg:mx-auto">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <!-- <div tabindex="0" role="button" class="sm:relative btn btn-ghost lg:hidden">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5 sm:absolute left-10"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 6h16M4 12h8m-8 6h16" />
+                      </svg>
+                    </div> -->
+                    <!-- bar -->
+                    <div class="lg:hidden absolute left-80  text-2xl -bottom-4">
+                      <i class="fa-solid fa-bars "></i>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                      <li><a>Find a pet</a></li>
+                      <li><a>Breeds</a></li>
+                      <li><a>Contact us</a></li>
+                      
+      
+                    </ul>
+                  </div>
+                 <div class="flex items-center space-x-2">
+                  <img src="c1-assets/logo-header.png" alt="">
+                  <a class="hidden md:block hover:bg-yellow-300 hover:rounded-md">Browse4Pets</a>
+                 </div>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a>Find a pet</a></li>
+                    <li><a>Breeds</a></li>
+                    <li><a>Contact us</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end flex space-x-2">
+                  <i class="fa-regular fa-bell hidden lg:block"></i>
+                  <i class="fa-solid fa-magnifying-glass hidden lg:block"></i>
+                  <button class="p-1 w-1/5 bg-transparent rounded-xl hidden lg:block border-2 border-yellow-400">Login</button>
+                  <button class="p-1 w-1/5  rounded-xl bg-[#FFDC26] hidden lg:block">Register</button>
+                </div>
+              </div>
+        </nav>
+
+
+        <!-- hero -->
+         <section class="mb-24 lg:container lg:mx-auto">
+          <div class="hero min-h-screen">
+            <div class="hero-content flex-col lg:flex-row-reverse">
+              <img class="lg:w-3/4 absolute lg:top-76 lg:right-20 " src="c1-assets/cat-big.png" alt="">
+              <div class="flex">
+                <div class="absolute lg:w-2/6 lg:left-44 lg:top-64 top-40 left-10">
+                  <h1 class="text-3xl lg:text-4xl font-bold">Pamper Your Pet,<br> Because They Deserve <br> the Best</h1>
+                  <p class="py-6 text-sm text-gray-600">
+                    Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!
+                  </p>
+                  
+                  <button class="p-2 lg:w-1/4 hover:bg-red-400   rounded-xl bg-[#FFDC26]">Find a pet</button>
+                </div>
+              </div>
+            </div>
+          </div>
+         </section>
+
+    </header>
+
+    <main>
+
+    </main>
+
+
+    <footer>
+
+    </footer>
+</body>
+</html>
